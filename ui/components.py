@@ -41,7 +41,7 @@ def clear_chat():
 
 
 def save_uploaded_file(uploaded_file) -> str:
-    print(f"uploaded file:", uploaded_file)
+    print("uploaded file:", uploaded_file)
     file_path = os.path.join(UPLOAD_DIR, uploaded_file.name)
 
     with open(file_path, "wb") as f:

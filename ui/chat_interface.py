@@ -19,7 +19,6 @@ class ChatInterface:
         all_chunks = []
 
         for uploaded_file in uploaded_files:
-            print(uploaded_file)
             path = save_uploaded_file(uploaded_file)
             chunks = self.doc_processor.process(path)
 

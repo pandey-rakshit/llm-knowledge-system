@@ -15,6 +15,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
+
 def main():
     init_session_state()
 
@@ -26,7 +27,6 @@ def main():
 
     if "include_wikipedia" not in st.session_state:
         st.session_state.include_wikipedia = False
-
 
     chat = st.session_state.chat_interface
 
@@ -85,6 +85,7 @@ def main():
                 count = chat.process_documents(uploaded_files)
                 st.success(f"Indexed {count} chunks")
                 st.rerun()
+
 
 if __name__ == "__main__":
     main()
