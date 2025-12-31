@@ -1,5 +1,7 @@
 # 🧠 LLM Knowledge System (Hybrid RAG Search Engine)
 
+### **[LIVE LINK](https://llm-knowledge-system.streamlit.app/)**
+
 A generic LLM knowledge system that integrates documents, web search, and multiple LLM providers with grounded, source-aware answers.
 
 **Documents • Web • Hybrid Retrieval using LLMs**
